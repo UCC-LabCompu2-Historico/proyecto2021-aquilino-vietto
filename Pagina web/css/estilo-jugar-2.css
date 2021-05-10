@@ -3,7 +3,6 @@ html {
     background: linear-gradient(to bottom, #0090FF, #66CBFB);
     text-align: center;
     font-family: Segoe UI;
-    height: 100%;
     width: 100%;
     margin: 0;
 }
@@ -37,7 +36,7 @@ main {
     border-radius: 5px;
     justify-content: center;
     align-items: center;
-    background-color: #fdff83;
+    background-color: #ffff;
 }
 
 header {
@@ -203,4 +202,8 @@ footer {
 .icono-tarjeta {
     width: 80px;
     height: 80px;
+}
+
+.op-1 {
+    background: url('iconos.jpg') 0 0;
 }
