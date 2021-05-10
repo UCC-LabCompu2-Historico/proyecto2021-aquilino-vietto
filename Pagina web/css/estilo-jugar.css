@@ -1,0 +1,205 @@
+body,
+html {
+    background: linear-gradient(to bottom, #0090FF, #66CBFB);
+    text-align: center;
+    font-family: Segoe UI;
+    width: 100%;
+    margin: 0;
+}
+
+h1 {
+    color: #ffffff;
+    margin: 0;
+}
+
+main {
+    height: auto;
+    margin-left: 85px;
+    margin-right: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.boton-carta {
+    height: 150px;
+    width: 100px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.div-carta {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdff83;
+}
+
+header {
+    padding-top: 34px;
+    padding-bottom: 29px;
+}
+
+.section-ganaste {
+    background-color: rgba(44, 245, 38, 0.97);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+}
+
+.section-perdiste {
+    background: rgba(164, 0, 0, 0.97);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+}
+
+.section-record {
+    background: rgba(245, 183, 38, 0.97);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+}
+
+.div-ganaste-1 {
+    width: auto;
+    margin-top: 39px;
+}
+
+.div-perdiste-1 {
+    width: auto;
+    margin-top: 39px;
+}
+
+.div-record-1 {
+    width: auto;
+    margin-top: 39px;
+}
+
+.perdiste-txt {
+    color: #ffffff;
+    font-size: 79px;
+    margin: 0;
+}
+
+.ganaste-txt {
+    color: #ffffff;
+    font-size: 79px;
+    margin: 0;
+}
+
+.record-txt {
+    color: #ffffff;
+    font-size: 79px;
+    margin: 0;
+}
+
+.div-ganaste-2 {
+    margin-top: 18px;
+}
+
+.div-perdiste-2 {
+    margin-top: 18px;
+}
+
+.div-record-2 {
+    margin-top: 18px;
+}
+
+.puntuacion {
+    color: #ffffff;
+    font-size: 32px;
+    margin: 0;
+}
+
+.puntuacion-record {
+    color: #000000;
+    font-size: 23px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.puntuacion-nuevo {
+    color: #000000;
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.div-opciones-ganaste {
+    margin-top: 43px;
+    height: auto;
+    width: 364px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div-opciones-perdiste {
+    margin-top: 43px;
+    height: auto;
+    width: 364px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div-opciones-record {
+    margin-top: 43px;
+    height: auto;
+    width: 364px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boton-jugar {
+    background: #4160D9;
+    width: 256px;
+    height: 42px;
+    color: #ffffff;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.boton-intentar {
+    background: #4160D9;
+    width: 256px;
+    height: 42px;
+    color: #ffffff;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.boton-salir {
+    height: 42px;
+    width: 167px;
+    border: none;
+    margin-top: 19px;
+    border-radius: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 32px;
+    width: 100%;
+}
+
+.icono-tarjeta {
+    width: 80px;
+    height: 80px;
+}
