@@ -3,6 +3,7 @@ html {
     background: linear-gradient(to bottom, #0090FF, #66CBFB);
     text-align: center;
     font-family: Segoe UI;
+    height: 100%;
     width: 100%;
     margin: 0;
 }

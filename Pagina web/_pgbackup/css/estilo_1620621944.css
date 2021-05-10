@@ -1,5 +1,5 @@
 body,
-html {
+html {
     background-color: #4160D9;
     text-align: center;
     font-family: Segoe UI;
@@ -62,7 +62,7 @@ footew {
 header {
     display: flex;
     justify-content: center;
-    padding-top: 67px;
+    padding-top: 54px;
 }
 
 footer {
