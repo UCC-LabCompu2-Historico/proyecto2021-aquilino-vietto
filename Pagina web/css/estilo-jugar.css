@@ -1,5 +1,5 @@
 body,
-html {
+html {
     background: linear-gradient(to bottom, #0090FF, #66CBFB);
     text-align: center;
     font-family: Segoe UI;
@@ -36,7 +36,7 @@ main {
     border-radius: 5px;
     justify-content: center;
     align-items: center;
-    background-color: #fdff83;
+    background-color: #feffcc;
 }
 
 header {
