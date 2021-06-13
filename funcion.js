@@ -1,25 +1,7 @@
-/* guardar_localstorage();
-
-
-function guardar_localstorage() {
-    let usuario = {
-        nombre: "tayi",
-        puntos: "5000",
-        coords: {
-            lat: 10,
-            lng: -10
-        }
-    };
-
-
-    localStorage.setItem("nombre", usuario);
-    localStorage.setItem("nombre", );
-
-} */
-
 document.getElementById('botonjugar').onclick = function() {
     var Nombre = document.getElementById('name').value;
     if (Validar(Nombre)) {
+        localStorage.setItem('nombreActual', Nombre);
         location.href = "jugar.html";
     } else {
         alert("Tu nombre no es valido.");
