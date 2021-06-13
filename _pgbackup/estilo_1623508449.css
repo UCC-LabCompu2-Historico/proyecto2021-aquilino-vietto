@@ -12,7 +12,6 @@ html {
     color: white;
     font-size: 80px;
     margin: 0 15px 0 0;
-    font-family: 'Aldrich', sans-serif;
 }
 
 #subtitulo {
@@ -48,7 +47,7 @@ button {
 }
 
 button:hover {
-    background-color: #00e52e;
+    background-color: #72d085;
 }
 
 footew {
@@ -62,7 +61,6 @@ header {
     display: flex;
     justify-content: center;
     padding-top: 67px;
-    align-items: center;
 }
 
 footer {

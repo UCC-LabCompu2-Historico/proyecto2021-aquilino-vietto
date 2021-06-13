@@ -12,7 +12,7 @@ html {
     color: white;
     font-size: 80px;
     margin: 0 15px 0 0;
-    font-family: 'Aldrich', sans-serif;
+    font-family: 'Chilanka', cursive;
 }
 
 #subtitulo {
@@ -62,7 +62,6 @@ header {
     display: flex;
     justify-content: center;
     padding-top: 67px;
-    align-items: center;
 }
 
 footer {
