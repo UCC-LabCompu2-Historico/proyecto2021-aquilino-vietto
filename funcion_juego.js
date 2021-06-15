@@ -91,6 +91,7 @@ setTimeout(function() {
 
     setInterval(reloj, 100);
     document.getElementById("comienzo").style.display = "none";
+    document.getElementsByTagName("canvas")[0].style.backgroundColor = "red";
 
 }, 2300);
 
