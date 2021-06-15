@@ -51,28 +51,11 @@ button:hover {
     background-color: #00e52e;
 }
 
-footew {
-    color: white;
-    font-size: 25px;
-    position: relative;
-    top: 120px;
-}
-
 header {
     display: flex;
     justify-content: center;
     padding-top: 67px;
     align-items: center;
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-.record {
-    color: #ffffff;
 }
 
 .div-input {
