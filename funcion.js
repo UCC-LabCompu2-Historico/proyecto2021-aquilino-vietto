@@ -1,12 +1,19 @@
-
 /**
  * Almacena el nombre del usuario en el local storage
  * @method almacenar
  */
-document.getElementById('botonjugar').onclick = function almacenar() {
-    let Nombre = document.getElementById('name').value;
+function almacenar() {
+
+    var Nombre = document.getElementById('name').value;
+    var Nivel;
     if (Validar(Nombre)) {
+        for (var i = 0; i < 3; i++) {
+            if (document.getElementsByName("dificultad")[i].checked) {
+                Nivel = document.getElementsByName("dificultad")[i].value;
+            }
+        }
         localStorage.setItem('nombreActual', Nombre);
+        localStorage.setItem('nivel', Nivel);
         location.href = "jugar.html";
     } else {
         alert("Tu nombre no es valido.");

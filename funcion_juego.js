@@ -82,7 +82,7 @@ function juego(name, id) {
         document.getElementsByName(N2)[0].style.pointerEvents = "none";
         if (A === B) {
             Z++;
-            if (Z === 15) {
+            if (Z === 2) {
                 comprobar(true);
             }
         } else {
@@ -105,6 +105,22 @@ function juego(name, id) {
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+var nivel = localStorage.getItem('nivel');
+var N;
+switch (nivel) {
+    case "facil":
+        N = 5;
+        break;
+    case "medio":
+        N = 4;
+        break;
+    case "dificil":
+        N = 3;
+        break;
+}
+
 /**
  * Inicia un reloj, oculta el fondo rosa y cambia el color del fondo del canvas.
  * @method intevalo
@@ -113,6 +129,7 @@ setTimeout(function intervalo() {
 
     setInterval(reloj, 100);
     document.getElementById("comienzo").style.display = "none";
+    document.getElementsByTagName("canvas")[0].style.transition = "background-color " + (30 * N - 10) + "s linear";
     document.getElementsByTagName("canvas")[0].style.backgroundColor = "red";
 
 }, 2300);
@@ -126,8 +143,7 @@ var x = 0,
 function reloj() {
     var canvas = document.getElementsByTagName("canvas")[0];
     var ctx = canvas.getContext("2d");
-
-    z = x / 4;
+    z = x / N;
     ctx.fillStyle = "#66CBFB";
     ctx.fillRect(0, 0, z, 160);
     x++;
@@ -151,7 +167,7 @@ var nombreActual = localStorage.getItem('nombreActual');
  */
 function comprobar(resultado) {
 
-    puntos = (300 - z) + Z * 25;
+    puntos = (300 - z) * 25 / N;
     puntos = Math.round(puntos);
     if (resultado) {
         if (puntos > puntosRecord) {
@@ -167,9 +183,9 @@ function comprobar(resultado) {
         }
     } else {
         if (puntosRecord != null) {
-            document.getElementsByTagName("p")[1].innerHTML ="Récord: "+ nombreRecord + " - " + puntosRecord + "pts";
+            document.getElementsByTagName("p")[1].innerHTML = "Récord: " + nombreRecord + " - " + puntosRecord + "pts";
         }
-            document.getElementById("perdiste").style.display = "block";
+        document.getElementById("perdiste").style.display = "block";
     }
 }
 

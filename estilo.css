@@ -21,7 +21,7 @@ html {
     margin: 39px 0 0;
 }
 
-input {
+.input-nombre {
     width: 222px;
     height: 34px;
     border-radius: 50px;
@@ -69,4 +69,16 @@ label {
 
 .div-btn {
     margin-top: 55px;
+}
+
+.niveles {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+input[type=radio] {
+    margin: auto 60px auto 5px;
+    width: 20px;
+    height: 20px;
 }

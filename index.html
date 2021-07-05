@@ -12,6 +12,7 @@
     <title>MemoCard</title>
     <link href="estilo.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aldrich&display=swap">
+    <script type="text/javascript" src="funcion.js"></script>
 </head>
 
 <body>
@@ -23,14 +24,21 @@
         <h2 id="subtitulo">Escribe tu nombre y dale a ¡Jugar!</h2>
         <div class="div-input">
             <label for="name">Tu nombre:</label>
-            <input type="text" id="name" name="name" placeholder="Nombre de usuario..." />
+            <input class="input-nombre" type="text" id="name" name="name" placeholder="Nombre de usuario..." />
         </div>
         <div class="div-btn">
-            <button id="botonjugar" type="button" name="botonjugar" > ¡Jugar! </button>
+            <div class="niveles">
+                <label for="facil">Facil</label>
+                <input id="facil" value="facil" type="radio" name="dificultad" checked></input>
+                <label for="medio">Medio</label>
+                <input id="medio" value="medio" type="radio" name="dificultad"></input>
+                <label for="dificil">Dificil</label>
+                <input id="dificil" value="dificil" type="radio" name="dificultad"></input>
+            </div>
+            <button id="botonjugar" type="button" name="botonjugar" onclick="almacenar()"> ¡Jugar! </button>
         </div>
     </section>
 
-    <script src="funcion.js" type="text/javascript"></script>
 </body>
 
 </html>
