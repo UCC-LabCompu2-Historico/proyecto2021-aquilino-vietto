@@ -82,7 +82,7 @@ function juego(name, id) {
         document.getElementsByName(N2)[0].style.pointerEvents = "none";
         if (A === B) {
             Z++;
-            if (Z === 2) {
+            if (Z === 15) {
                 comprobar(true);
             }
         } else {
