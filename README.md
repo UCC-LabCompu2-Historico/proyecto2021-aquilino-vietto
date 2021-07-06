@@ -6,7 +6,6 @@ Autores:
 
 Link:
 	[MemoCard](https://ucc-labcompu2.github.io/proyecto2021-aquilino-vietto/index.html)
-	   [Juego](https://ucc-labcompu2.github.io/proyecto2021-aquilino-vietto/jugar.html)
 
 Resumen:
 Un divertido pero productivo juego para personas de todas las edades. 
